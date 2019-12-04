@@ -1,0 +1,273 @@
+/*This is a practice test using prettylittlethings.com. This tests includes links for plus size jeans. */
+
+
+{
+  "id": "9bcbac8d-914d-48d1-8ac1-bef92a8e956e",
+  "version": "2.0",
+  "name": "Test_PLT",
+  "url": "https://www.prettylittlething.us",
+  "tests": [{
+    "id": "f6fe4070-fec8-4deb-95a1-ef1d0d05a513",
+    "name": "Plus Size-Jeans/Tops",
+    "commands": [{
+      "id": "4377881b-a396-467c-b7a6-ad24702efc0a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee7d5e77-8c6f-4486-b042-f1e8655c7fdc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dea2b6aa-0b17-4d22-84d5-9517d2820ba3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#main-clothing > .level0 > span",
+      "targets": [
+        ["css=#main-clothing > .level0 > span", "css:finder"],
+        ["xpath=//li[@id='main-clothing']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fd0fb71-39db-4d00-ac4a-0ec834ea76d6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#main-clothing > .level0 > span",
+      "targets": [
+        ["css=#main-clothing > .level0 > span", "css:finder"],
+        ["xpath=//li[@id='main-clothing']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2796d9b-ee95-440e-b7f4-e7b1d7831822",
+      "comment": "",
+      "command": "click",
+      "target": "css=.controls-right",
+      "targets": [
+        ["css=.controls-right", "css:finder"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bde68b1-820a-421f-b661-046fe89c7720",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jeans",
+      "targets": [
+        ["linkText=Jeans", "linkText"],
+        ["css=#shopfigure-plusjeans > .level1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Jeans')])[4]", "xpath:link"],
+        ["xpath=//li[@id='shopfigure-plusjeans']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.prettylittlething.us/shop-by/plus-size-clothing/jeans.html?navigation-shopfigure-plusjeans')]", "xpath:href"],
+        ["xpath=//li[4]/div/div[2]/div/div/ul/li[2]/ul[2]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4439c1d2-b0c7-41bd-a227-c6cc39fd09f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#main-tops > .level0 > span",
+      "targets": [
+        ["css=#main-tops > .level0 > span", "css:finder"],
+        ["xpath=//li[@id='main-tops']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4228f54d-f6e9-492e-af59-b7051ba67c88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,565.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d0e00cd-eda1-4737-aeb5-d451da5624d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.category-product:nth-child(5) .lazyloaded",
+      "targets": [
+        ["css=.category-product:nth-child(5) .lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='Black Steal His Slogan Hoodie']", "xpath:img"],
+        ["xpath=//div[@id='products-grid-container']/div[2]/div/div[5]/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b5f2a1b-f19d-4dda-aa80-9fc790f94fd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-id-imagegallery > .slick-next",
+      "targets": [
+        ["css=#js-id-imagegallery > .slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='js-id-imagegallery']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec68e01-2c29-4ccf-bb41-4e34f761d6a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-id-imagegallery > .slick-next",
+      "targets": [
+        ["css=#js-id-imagegallery > .slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='js-id-imagegallery']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1129981-3a8d-4ad5-8b4a-3837fd60225c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-id-imagegallery > .slick-next",
+      "targets": [
+        ["css=#js-id-imagegallery > .slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='js-id-imagegallery']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "724dd222-3a61-4910-9742-76b33ed1c1b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-id-imagegallery > .slick-next",
+      "targets": [
+        ["css=#js-id-imagegallery > .slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='js-id-imagegallery']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c6e88e1-8661-445c-9fd1-b49782c3d2a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.colour-box:nth-child(2) .colour-swatch-image",
+      "targets": [
+        ["css=.colour-box:nth-child(2) .colour-swatch-image", "css:finder"],
+        ["xpath=//img[@alt='CMG2293:Baby Pink']", "xpath:img"],
+        ["xpath=//section[@id='product-right']/div[5]/div/div[2]/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2108942d-3fc0-48e1-908f-334573d632a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-id-imagegallery > .slick-next",
+      "targets": [
+        ["css=#js-id-imagegallery > .slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='js-id-imagegallery']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd8485e3-dfcd-4b36-862e-00d5166d3ce3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-id-imagegallery > .slick-next",
+      "targets": [
+        ["css=#js-id-imagegallery > .slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='js-id-imagegallery']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f48fbe14-78c4-4850-9c21-67637d384b97",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-id-imagegallery > .slick-next",
+      "targets": [
+        ["css=#js-id-imagegallery > .slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='js-id-imagegallery']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31f3b06d-bdf5-45ac-b35a-42f26f93dfd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size-in-stock",
+      "targets": [
+        ["css=.size-in-stock", "css:finder"],
+        ["xpath=//div[@id='attribute135']/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9737e320-ce31-4088-bf6b-f12c158f033a",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-bag",
+      "targets": [
+        ["id=add-to-bag", "id"],
+        ["css=#add-to-bag", "css:finder"],
+        ["xpath=//button[@id='add-to-bag']", "xpath:attributes"],
+        ["xpath=//section[@id='product-right']/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad8b41ea-0f7c-492c-a3f3-6eb797d0dbe1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=add-to-bag",
+      "targets": [
+        ["id=add-to-bag", "id"],
+        ["css=#add-to-bag", "css:finder"],
+        ["xpath=//button[@id='add-to-bag']", "xpath:attributes"],
+        ["xpath=//section[@id='product-right']/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2d3ff3e-5ee8-4cb8-b614-0d74a4a84a55",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=add-to-bag",
+      "targets": [
+        ["id=add-to-bag", "id"],
+        ["css=#add-to-bag", "css:finder"],
+        ["xpath=//button[@id='add-to-bag']", "xpath:attributes"],
+        ["xpath=//section[@id='product-right']/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "701d4aae-2812-4d9f-8465-2c7d3dfd930d",
+      "comment": "",
+      "command": "click",
+      "target": "id=mini-cart-view-bag",
+      "targets": [
+        ["id=mini-cart-view-bag", "id"],
+        ["css=#mini-cart-view-bag", "css:finder"],
+        ["xpath=//button[@id='mini-cart-view-bag']", "xpath:attributes"],
+        ["xpath=//div[@id='topcart']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0e129897-30dd-4124-b5e8-7b7804722755",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f6fe4070-fec8-4deb-95a1-ef1d0d05a513"]
+  }],
+  "urls": ["https://www.prettylittlething.us/"],
+  "plugins": []
+}
